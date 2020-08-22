@@ -161,33 +161,6 @@ p {
 }
 
 
-
-
-
-.btn-whatsapp {
-      display:block;
-      width:30px;
-      height:30px;
-      color:#fff;
-      position: fixed;
-      left:25px;
-      bottom:40px;
-      border-radius:50%;
-      line-height:80px;
-      text-align:center;
-      z-index:999;
-}
-
-.social-img:hover{  
-    -webkit-filter: drop-shadow(5px 5px 5px #222 );
-    filter: drop-shadow(5px 5px 5px #222);
-  
-}
-
-.social-img{
-    width: 50px;
-    
-}
 a.hover {
     -webkit-transition: border 150ms ease-in-out;
     -o-transition: border 150ms ease-in-out;
