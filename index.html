@@ -1290,12 +1290,22 @@ convirtiéndonos en una marca líder en artículos religiosos.</p>
   </div>
   <!-- /.sub-footer --> 
 </footer>
-<div class="btn-whatsapp">
-        <a href="https://wa.me/5212223052762?text=Hola, me gustaría más información sobre sus productos" target="_blank">
-        <img src="https://logodownload.org/wp-content/uploads/2015/04/whatsapp-logo-1.png"  class="social-img" >
-        </a>
-        </div>
 
+        <!-- WhatsHelp.io widget -->
+<script type="text/javascript">
+    (function () {
+        var options = {
+            whatsapp: "+5212223072028", // WhatsApp number
+            call_to_action: "Contáctanos", // Call to action
+            position: "left", // Position may be 'right' or 'left'
+        };
+        var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<!-- /WhatsHelp.io widget -->
 <script type="text/javascript" src="style/js/jquery.min.js"></script> 
 <script type="text/javascript" src="style/js/bootstrap.min.js"></script> 
 <script type="text/javascript" src="style/revolution/js/jquery.themepunch.tools.min.js"></script> 
