@@ -159,6 +159,35 @@ textarea {
 p {
     margin: 0 0 20px
 }
+
+
+
+
+
+.btn-whatsapp {
+      display:block;
+      width:30px;
+      height:30px;
+      color:#fff;
+      position: fixed;
+      left:30px;
+      bottom:80px;
+      border-radius:50%;
+      line-height:80px;
+      text-align:center;
+      z-index:999;
+}
+
+.social-img:hover{  
+    -webkit-filter: drop-shadow(5px 5px 5px #222 );
+    filter: drop-shadow(5px 5px 5px #222);
+  
+}
+
+.social-img{
+    width: 50px;
+    
+}
 a.hover {
     -webkit-transition: border 150ms ease-in-out;
     -o-transition: border 150ms ease-in-out;
@@ -6862,12 +6891,12 @@ figure.overlay img {
         text-align: left;
     }
     .container {
-        padding-right: 25px;
-        padding-left: 25px;
+        padding-right: 32px;
+        padding-left: 32px;
     }
     .navbar .navbar-header {
-        padding-left: 25px;
-        padding-right: 25px;
+        padding-left: 32px;
+        padding-right: 32px;
         width: 100%;
     }
     .slick:not(.var-slick) .item {
